@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+button a {
+    text-decoration: none;
+    color: #a96437;
+}
+.but{
+    background-color: #eae2dd;
+    color: white;
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px;
+  
+  }
+  .but:hover {
+    background-color: #c1a89b;
+  }
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #baa79a;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+#navbar {
+    background-color: #b59077;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 90px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.menu {
+    width: 100%;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#container2 {
+    margin-top: 20px;
+}
+
+.menu .card {
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+}
+
+.menu h3 {
+    color: #b2744c;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.menu p {
+    font-size: 16px;
+    color: #b2744c;
+    padding-top: 10px;
+}
+
+.menu p span {
+    float: right;
+    cursor: pointer;
+}
+
+.menu .card p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer {
+    width: 100%;
+    background: #b59077;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-logo img {
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#footer .social-links i {
+    font-size: 17px;
+    margin: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow {
+    position: fixed;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+
